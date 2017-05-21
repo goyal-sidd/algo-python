@@ -9,7 +9,11 @@ def insertion_sort(nums):
         
 
 def main():
-    a = eval(input("Enter nos which have to be sorted"))
+    a = input("Enter nos which have to be sorted")
     a = list(a)
     insertion_sort(a)
     print(a)
+
+main()
+
+ 
